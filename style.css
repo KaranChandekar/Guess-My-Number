@@ -75,3 +75,9 @@ h1 {
   top: 2rem;
   right: 2rem;
 }
+
+.again {
+  position: absolute;
+  top: 2rem;
+  left: 2rem;
+}
