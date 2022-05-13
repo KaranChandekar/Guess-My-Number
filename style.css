@@ -108,3 +108,8 @@ h1 {
 .btn:hover {
   background-color: #ccc;
 }
+
+.message {
+  margin-bottom: 8rem;
+  height: 3rem;
+}
