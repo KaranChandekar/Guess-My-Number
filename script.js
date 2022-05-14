@@ -49,3 +49,14 @@ checkBtn.addEventListener('click', function () {
     }
   }
 });
+
+again.addEventListener('click', function () {
+  score = 20;
+  secretNumber = Math.floor(Math.random() * 20) + 1;
+  displayMessage('Start guessing...');
+  scoreEl.textContent = score;
+  numberEl.textContent = '?';
+  guessInput.value = '';
+  body.style.backgroundColor = '#222';
+  numberEl.style.width = '15rem';
+});
