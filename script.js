@@ -9,6 +9,10 @@ const highscoreEl = document.querySelector('.highscore');
 const messageEl = document.querySelector('.message');
 const body = document.querySelector('body');
 
+let secretNumber = Math.floor(Math.random() * 20) + 1;
+let score = 20;
+let highscore = 0;
+
 const displayMessage = function (message) {
   messageEl.textContent = message;
 };
