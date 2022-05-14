@@ -9,6 +9,10 @@ const highscoreEl = document.querySelector('.highscore');
 const messageEl = document.querySelector('.message');
 const body = document.querySelector('body');
 
+const displayMessage = function (message) {
+  messageEl.textContent = message;
+};
+
 checkBtn.addEventListener('click', function () {
   const guess = Number(guessInput.value);
   console.log(guess, typeof guess);
